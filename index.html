@@ -1,178 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <title>시안코딩</title>
-  <link rel="stylesheet" href="./css/initial.min.css">
-  <link rel="stylesheet" href="./css/default.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-  <body>
-    <div id="main-banner">
-      <div class="inner">
-        <div class="main-text">
-          <p class="main-title">
-            정직한 가격의<br>
-            <strong>프리미엄 면도용품 구독 서비스</strong>
-          </p>
-          <p class="sub-title">독일산 5중날 8,900원, 첫 가입시 면도기를 드려요</p>
-          <a href="#" class="common-btn">더 알아보기</a>
-        </div>
-      </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Han</title>
+    <link rel="icon" href="./ico/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/common.js"></script>
+  </head>
+  <body onload="startTime()">
+    <div id="nav">
+      <div id="logo">Han</div>
+      <ul>
+        <li><a href="https://quantumcode.tistory.com/" target="_blank"></i>quantumcode</a></li>
+        <li><a href="https://itdg.kedutms.com/index.php" target="_blank">국비교육 과정평가</a></li>
+        <li><a href="http://kedudisk.com/pm/" target="_blank">국비교육 웹하드</a></li>
+        <li><a href="#" onclick="lunchMenu()">오늘의 점심은?</a></li>
+      </ul>
     </div>
-    <!-- 헤더 영역 -->
-    <div id="wrap">
-      <header id="header">
-        <div class="h-inner">
-          <div id="logo">
-            <h1><a href="#"><img src="./img/logo_img.png" alt="Wisely"></a></h1>
-          </div>
-          <div class="inner">
-            <ul id="gnb">
-              <li><a href="#first">시작하기</a></li>
-              <li><a href="#second">상품보기</a></li>
-              <li><a href="#third">와이즐리 이야기</a></li>
-              <li><a href="#fourth">고객센터</a></li>
-            </ul>
-            <ul id="login-menu">
-              <li><a href="#">로그인</a></li>
-              <li><a href="#" class="cart">장바구니 <span class="count">0</span></a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
-    </div>
-  <!-- 컨텐츠 영역 -->
-    <div id="container">
-      <!-- 첫번째 섹션 -->
-      <section id="first">
-        <div class="inner">
-          <ul class="box-wrap">
-            <li>
-              <div class="items">
-                <h3>채용 정보</h3>
-                <p>21세기 선두육상여객 운송 금호고속 인재모집</p>
-                <div class="img">
-                  <img src="./img/section_icon.png" alt="section_icon">
-                </div>
-              </div>
-              <li>
-                <div class="items">
-                  <h3>배송 안내</h3>
-                  <p>21세기 선두육상여객 운송 금호고속 인재모집</p>
-                  <div class="img">
-                    <img src="./img/section_icon2.png" alt="section_icon2">
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="items">
-                  <h3>교환 환불</h3>
-                  <p>21세기 선두육상여객 운송 금호고속 인재모집</p>
-                  <div class="img">
-                    <img src="./img/section_icon3.png" alt="section_icon3">
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="items">
-                  <h3>자주하는 질문</h3>
-                  <p>21세기 선두육상여객 운송 금호고속 인재모집</p>
-                  <div class="img">
-                    <img src="./img/section_icon4.png" alt="section_icon4">
-                  </div>
-                </div>
-              </li>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- 두번째 섹션 -->
-      <section id="second">
-        <div class="inner">
-          <h2>다양한 기초자산</h2>
-          <div class="sub-title">KOSPI200지수,KOSDAQ150지수 및 55개의 구성종목에<br>투자할 수 있습니다.</div>
-          <div class="thumb-img-wrap">
-            <ul>
-              <li><a href="#"><img src="./img/section_2/img01.png" alt="img01"></a></li>
-              <li><a href="#"><img src="./img/section_2/img02.png" alt="img02"></a></li>
-              <li><a href="#"><img src="./img/section_2/img03.png" alt="img03"></a></li>
-              <li><a href="#"><img src="./img/section_2/img04.png" alt="img04"></a></li>
-              <li><a href="#"><img src="./img/section_2/img05.png" alt="img05"></a></li>
-              <li><a href="#"><img src="./img/section_2/img06.png" alt="img06"></a></li>
-            </ul>
-            <ul>
-              <li><a href="#"><img src="./img/section_2/img07.png" alt="img07"></a></li>
-              <li><a href="#"><img src="./img/section_2/img08.png" alt="img08"></a></li>
-              <li><a href="#"><img src="./img/section_2/img09.png" alt="img09"></a></li>
-              <li><a href="#"><img src="./img/section_2/img10.png" alt="img010"></a></li>
-              <li><a href="#"><img src="./img/section_2/img11.png" alt="img11"></a></li>
-              <li><a href="#"><img src="./img/section_2/img12.png" alt="img12"></a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- 세번째 섹션 -->
-      <section id="third">
-        <div class="inner">
-          <div class="box img"></div> <!-- 이미지 영역 -->
-          <div class="box"> <!-- 텍스트 영역 -->
-            <div class="text-box">
-              <h2>상승일 때도, 하락일 때도<br>모두 수익!</h2>
-              <div class="sub-title">상승을 예상할 때는 콜ELW,<br>하락을 예상할 때는 풋ELW와 함께하세요.</div>
-              <a href="#" class="common-btn">ELW 장점</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- 네번째 섹션 -->
-      <section id="fourth">
-        <div class="inner">
-          <div class="box img"></div>
-          <div class="box"> <!-- 텍스트 영역 -->
-            <div class="text-box">
-              <h2>새로운 면도 경험<span class="light-text">을<br>선물하세요</span></h2>
-              <div class="sub-title">건강한 면도 습관을 선물하세요.<br>3단계 프리미엄</div>
-              <a href="#" class="common-btn">더 알아보기</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- 다섯번째 섹션 -->
-      <section id="fifth">
-        <div class="inner">
-          <div class="box img"></div> <!-- 이미지 영역 -->
-          <div class="box"> <!-- 텍스트 영역 -->
-            <div class="text-box">
-              <h2><span class="light-text">부담없이 시작하세요</span><br>클럽 구독시 면도기 무료</h2>
-              <a href="#" class="common-btn">시작하기</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <footer id="footer">
-      <div class="inner">
-        <div class="f-box logo">
-          <a href="#"><img src="./img/footer_logo.png" alt="wisely"></a>
-        </div>
-        <div class="f-box">
-          <ul>
-            <li><a href="#">개인정보취급방침</a></li>
-            <li><a href="#">이용약관 및 고객유의사항</a></li>
-          </ul>
-          <div class="tel">고객센터&nbsp;<a href="tel:1544-5000">1544-5000</a></div>
-          <div class="copyright">copyright&nbsp;2020&nbsp;korea&nbsp;investment&nbsp;&nbsp;securities&nbsp;co.&nbsp;ltd<br>all&nbsp;rights&nbsp;reserved</div>
-        </div>
-        <select id="familysite" name="familysite">
-          <option value="" disabled hidden selected>FamilySite</option>
-          <option value="daum">Daum</option>
-          <option value="kakao">Kakao</option>
-          <option value="instagram">Instagram</option>
-        </select>
-      </div>
-    </footer>
-    </div>
+  <div id="txt"></div>
   </body>
 </html>
